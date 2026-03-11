@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.testlab1.CompanyServiceTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.126 s <<< FAILURE! -- in com.testlab1.CompanyServiceTest
+com.testlab1.CompanyServiceTest.testGetTopLevelParent_NullInput -- Time elapsed: 0.038 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getTopLevelParent'
+	at com.testlab1.CompanyServiceImpl.getTopLevelParent(CompanyServiceImpl.java:9)
+	at com.testlab1.CompanyServiceTest.testGetTopLevelParent_NullInput(CompanyServiceTest.java:117)
+
+com.testlab1.CompanyServiceTest.testEmployeeCount_EmptyList -- Time elapsed: 0.011 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getEmployeeCountForCompanyAndChildren'
+	at com.testlab1.CompanyServiceImpl.getEmployeeCountForCompanyAndChildren(CompanyServiceImpl.java:14)
+	at com.testlab1.CompanyServiceTest.testEmployeeCount_EmptyList(CompanyServiceTest.java:66)
+
+com.testlab1.CompanyServiceTest.testEmployeeCount_NoChildren -- Time elapsed: 0.008 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getEmployeeCountForCompanyAndChildren'
+	at com.testlab1.CompanyServiceImpl.getEmployeeCountForCompanyAndChildren(CompanyServiceImpl.java:14)
+	at com.testlab1.CompanyServiceTest.testEmployeeCount_NoChildren(CompanyServiceTest.java:36)
+
+com.testlab1.CompanyServiceTest.testEmployeeCount_SimpleTree -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getEmployeeCountForCompanyAndChildren'
+	at com.testlab1.CompanyServiceImpl.getEmployeeCountForCompanyAndChildren(CompanyServiceImpl.java:14)
+	at com.testlab1.CompanyServiceTest.testEmployeeCount_SimpleTree(CompanyServiceTest.java:48)
+
+com.testlab1.CompanyServiceTest.testGetTopLevelParent_WhenAlreadyRoot -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getTopLevelParent'
+	at com.testlab1.CompanyServiceImpl.getTopLevelParent(CompanyServiceImpl.java:9)
+	at com.testlab1.CompanyServiceTest.testGetTopLevelParent_WhenAlreadyRoot(CompanyServiceTest.java:26)
+
+com.testlab1.CompanyServiceTest.testEmployeeCount_MultipleSubtrees -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getEmployeeCountForCompanyAndChildren'
+	at com.testlab1.CompanyServiceImpl.getEmployeeCountForCompanyAndChildren(CompanyServiceImpl.java:14)
+	at com.testlab1.CompanyServiceTest.testEmployeeCount_MultipleSubtrees(CompanyServiceTest.java:110)
+
+com.testlab1.CompanyServiceTest.testGetTopLevelParent_FromDeepLevel -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getTopLevelParent'
+	at com.testlab1.CompanyServiceImpl.getTopLevelParent(CompanyServiceImpl.java:9)
+	at com.testlab1.CompanyServiceTest.testGetTopLevelParent_FromDeepLevel(CompanyServiceTest.java:18)
+
+com.testlab1.CompanyServiceTest.testEmployeeCount_DeepHierarchy -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getEmployeeCountForCompanyAndChildren'
+	at com.testlab1.CompanyServiceImpl.getEmployeeCountForCompanyAndChildren(CompanyServiceImpl.java:14)
+	at com.testlab1.CompanyServiceTest.testEmployeeCount_DeepHierarchy(CompanyServiceTest.java:95)
+
+com.testlab1.CompanyServiceTest.testEmployeeCount_DisconnectedCompanies -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'getEmployeeCountForCompanyAndChildren'
+	at com.testlab1.CompanyServiceImpl.getEmployeeCountForCompanyAndChildren(CompanyServiceImpl.java:14)
+	at com.testlab1.CompanyServiceTest.testEmployeeCount_DisconnectedCompanies(CompanyServiceTest.java:77)
+
